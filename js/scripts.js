@@ -228,7 +228,7 @@ function initMap() {
     });
 
     var location2 = {lat: 38.9079, lng: -77.0316};
-    var map2 = new google.maps.Map(document.getElementById('map-canvas-welcome drinks'), {
+    var map2 = new google.maps.Map(document.getElementById('map-canvas-welcome'), {
         zoom: 15,
         center: location2,
         scrollwheel: false
