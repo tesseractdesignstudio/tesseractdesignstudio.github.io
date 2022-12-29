@@ -215,7 +215,7 @@ $(document).ready(function () {
 
 // Google map
 function initMap() {
-    var location1 = {lat: 38.9225, lng: -77.0349};
+    var location = {lat: 38.922504, lng: -77.034931};
     var map1 = new google.maps.Map(document.getElementById('map-canvas-wedding'), {
         zoom: 15,
         center: location,
