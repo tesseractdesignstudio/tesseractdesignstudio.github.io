@@ -215,30 +215,28 @@ $(document).ready(function () {
 
 // Google map
 function initMap() {
-    var location = {lat: 38.92222, lng: -77.03639};
-    var map = new google.maps.Map(document.getElementById('map-canvas'), {
+    var location1 = {lat: 38.9225, lng: -77.0349};
+    var map1 = new google.maps.Map(document.getElementById('map-canvas-wedding'), {
         zoom: 15,
         center: location,
         scrollwheel: false
     });
 
-    var marker = new google.maps.Marker({
-        position: location,
-        map: map
+    var marker1 = new google.maps.Marker({
+        position: location1,
+        map: map1
     });
-}
 
-function initBBSRMap() {
-    var la_fiesta = {lat: 38.92222, lng: -77.03639};
-    var map = new google.maps.Map(document.getElementById('map-canvas'), {
+    var location2 = {lat: 38.9079, lng: -77.0316};
+    var map2 = new google.maps.Map(document.getElementById('map-canvas-welcome drinks'), {
         zoom: 15,
-        center: la_fiesta,
+        center: location2,
         scrollwheel: false
     });
 
-    var marker = new google.maps.Marker({
-        position: la_fiesta,
-        map: map
+    var marker2 = new google.maps.Marker({
+        position: location2,
+        map: map2
     });
 }
 
