@@ -450,49 +450,42 @@
                 <p>We would greatly appreciate if you could RSVP ASAP.
 		    <br>We love all of your kids, but have chosen to keep our wedding events adults only.
 		    </p>
-                <form id="rsvp-form" class="rsvp-form"
-                      action=""
-                      method="POST">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6">
-                            <div class="form-input-group">
-                                <i class="fa fa-envelope"></i><input type="email" name="email" class=""
-                                                                     placeholder="Your email"
-                                                                     required>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6">
-                            <div class="form-input-group">
-                                <i class="fa fa-user"></i><input name="name" class=""
-                                                                 placeholder="Your name"
-                                                                 required>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6">
-                            <div class="form-input-group">
-                                <i class="fa fa-users"></i><input name="extras" class=""
-                                                                  placeholder="Plus one if specified on invite"
-								 required>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6">
-                            <div class="form-input-group">
-                                <i class="fa fa-group"></i><input name="yesno" class=""
-                                                                placeholder="rsvp yes or no"
-                                                                required>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12" id="alert-wrapper"></div>
-                    </div>
-                    <button class="btn-fill rsvp-btn">
-                        Yes,
-                        that's me!
-                    </button>
-                </form>
+                <form id="rsvp-form" class="rsvp-form" action="" method="POST">
+    <div class="row">
+        <div class="col-md-6 col-sm-6">
+            <div class="form-input-group">
+                <i class="fa fa-envelope"></i>
+                <input type="email" name="email" class="" placeholder="Your email" required>
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-6">
+            <div class="form-input-group">
+                <i class="fa fa-user"></i>
+                <input name="name" class="" placeholder="Your name" required>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 col-sm-6">
+            <div class="form-input-group">
+                <i class="fa fa-users"></i>
+                <input name="rsvp" class="" placeholder="RSVP Yes/No" required>
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-6">
+            <div class="form-input-group">
+                <i class="fa fa-key"></i>
+                <input type="number" name="invite_code" id="invite_code" class="" min="0" placeholder="Invite code" required>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12" id="alert-wrapper"></div>
+    </div>
+    <button class="btn-fill rsvp-btn">
+        Yes, that's me!
+    </button>
+</form>
             </div>
         </div>
     </div>
