@@ -135,7 +135,9 @@ $(document).ready(function () {
         });
 
     });
-
+    
+     /********************** Embed youtube video *********************/
+    $('.player').YTPlayer();
 
     /********************** Add to Calendar **********************/
     var myCalendar = createCalendar({
